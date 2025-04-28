@@ -27,3 +27,8 @@ cmake -S . -B ./build -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Debug
 mingw32-make -C ./build
 ./build/bin2header.exe
 ```
+```
+##### GCC
+```
+gcc src/bin2header.c -o bin2header.exe
+```
