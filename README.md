@@ -30,5 +30,5 @@ mingw32-make -C ./build
 ```
 ##### GCC
 ```
-gcc src/bin2header.c -o bin2header.exe
+gcc src/main.c -o bin2header.exe
 ```
